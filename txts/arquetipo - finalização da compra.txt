@@ -1,0 +1,12 @@
+
+		while (f3 aciona)
+
+
+		> Le o valor total a ser pago
+		if se o valor a ser pago for maior do que 0:
+			> adquire a form de pgmt
+			> adquire o cpf
+		else:
+			> finaliza a compra
+			
+		

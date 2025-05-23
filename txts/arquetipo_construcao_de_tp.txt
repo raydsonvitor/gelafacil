@@ -1,0 +1,9 @@
+> criacao de tp
+
+> criacao do tp e suas configs
+> config dos binds
+> criacao dos widgets
+> das funcoes de refresh sinalizers e widgets
+> criacao das funcoes de validacao
+> criacao dos blocos try
+> criacao do esquema de ignore enter
