@@ -1,0 +1,3 @@
+1 > Está duplicando a conta do cliene se eu buscar a conta do cliente duas vezes.
+
+	R: Realizar reset root antes de abrir a conta do clientenovamente selecionado (sob a condicao de set_modo_cliente_conta == True.

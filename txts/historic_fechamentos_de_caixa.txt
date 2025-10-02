@@ -1,0 +1,293 @@
+2024-10-01 - {'entrada_dinheiro': 434.0, 'entrada_cartao': 75.0, 'sangria': 0, 'caixa restante': 639.5}
+2024-10-01 - {'entrada_dinheiro': 434.0, 'entrada_cartao': 75.0, 'sangria': 0, 'caixa restante': '12'}
+2024-10-01 - {'entrada_dinheiro': 434.0, 'entrada_cartao': 75.0, 'sangria': 0, 'caixa restante': '78'}
+2024-10-01 - {'entrada_dinheiro': 434.0, 'entrada_cartao': 75.0, 'sangria': 0, 'caixa restante': '78'}
+2024-10-01 - {'entrada_dinheiro': 434.0, 'entrada_cartao': 75.0, 'sangria': 0, 'caixa restante': '89'}
+2024-10-01 - {'entrada_dinheiro': 434.0, 'entrada_cartao': 75.0, 'sangria': 0, 'caixa restante': '23'}
+2024-10-01 - {'entrada_dinheiro': 434.0, 'entrada_cartao': 75.0, 'sangria': 0, 'caixa restante': '10'}
+2024-10-13 - {'entrada_dinheiro': 0, 'entrada_cartao': 0, 'sangria': 0, 'caixa_restante': '25'}
+2024-10-13 - {'entrada_dinheiro': 0, 'entrada_cartao': 0, 'sangria': 0, 'caixa_restante': '32'}
+2024-10-13 - {'entrada_dinheiro': 0, 'entrada_cartao': 0, 'sangria': 0, 'caixa_restante': '63'}
+2024-10-13 - {'entrada_dinheiro': 146.0, 'entrada_cartao': 0, 'sangria': 0, 'caixa_restante': '5'}
+2024-10-13 - {'entrada_dinheiro': 146.0, 'entrada_cartao': 0, 'sangria': 0, 'caixa_restante': '15'}
+2024-10-13 - {'entrada_dinheiro': 146.0, 'entrada_cartao': 0, 'sangria': 0, 'caixa_restante': '15'}
+2024-10-13 - {'entrada_dinheiro': 146.0, 'entrada_cartao': 0, 'sangria': 0, 'caixa_restante': '15'}
+2024-10-20 - {'entrada_dinheiro': 2646.789999999999, 'entrada_cartao': 4947.109999999991, 'sangrias': 45.0, 'suprimentos': 0, 'caixa_restante': '200'}
+2024-10-20 - {'entrada_dinheiro': 2646.789999999999, 'entrada_cartao': 4947.109999999991, 'sangrias': 545.0, 'suprimentos': 100.0, 'caixa_restante': '15'}
+2024-10-20 - {'entrada_dinheiro': 2646.789999999999, 'entrada_cartao': 4947.109999999991, 'sangrias': 545.0, 'suprimentos': 100.0, 'caixa_restante': '0'}
+2024-11-02 - {'entrada_dinheiro': 0, 'entrada_cartao': 0, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '5'}
+2024-11-02 - {'entrada_dinheiro': 0, 'entrada_cartao': 0, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '5'}
+2024-11-03 - {'entrada_dinheiro': 938.8800000000001, 'entrada_cartao': 3259.509999999997, 'sangrias': 50.0, 'suprimentos': 100.0, 'caixa_restante': '5'}
+2024-11-03 - {'entrada_dinheiro': 943.8800000000001, 'entrada_cartao': 3269.509999999997, 'sangrias': 150.0, 'suprimentos': 100.0, 'caixa_restante': '10'}
+2024-11-03 - {'entrada_dinheiro': 1493.5700000000004, 'entrada_cartao': 4657.929999999993, 'sangrias': 150.0, 'suprimentos': 100.0, 'caixa_restante': '5'}
+2024-11-03 - {'entrada_dinheiro': 1493.5700000000004, 'entrada_cartao': 4657.929999999993, 'sangrias': 150.0, 'suprimentos': 100.0, 'caixa_restante': '10'}
+2024-11-03 - {'entrada_dinheiro': 1720.5100000000004, 'entrada_cartao': 5769.869999999992, 'sangrias': 150.0, 'suprimentos': 100.0, 'caixa_restante': '300'}
+2024-11-04 - {'entrada_dinheiro': 1142.9400000000003, 'entrada_cartao': 3193.619999999998, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '300'}
+2024-11-05 - {'entrada_dinheiro': 1296.5899999999997, 'entrada_cartao': 2826.6599999999994, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '250'}
+2024-11-06 - {'entrada_dinheiro': 1193.2100000000005, 'entrada_cartao': 3384.79, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '300'}
+2024-11-07 - {'entrada_dinheiro': 1218.33, 'entrada_cartao': 4823.070000000001, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '250'}
+2024-11-09 - {'entrada_dinheiro': 0, 'entrada_cartao': 0, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '300'}
+2024-11-09 - {'entrada_dinheiro': 1600.4700000000003, 'entrada_cartao': 5388.049999999992, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '250'}
+2024-11-10 - {'entrada_dinheiro': 2291.2699999999995, 'entrada_cartao': 5500.4999999999945, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '250'}
+2024-11-11 - {'entrada_dinheiro': 1224.6100000000004, 'entrada_cartao': 3854.4299999999985, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '300'}
+2024-11-12 - {'entrada_dinheiro': 792.2200000000003, 'entrada_cartao': 2373.139999999999, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '300'}
+2024-11-13 - {'entrada_dinheiro': 1103.3100000000002, 'entrada_cartao': 3139.8699999999985, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '300'}
+2024-11-14 - {'entrada_dinheiro': 1359.6300000000003, 'entrada_cartao': 3445.219999999998, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '250'}
+2024-11-15 - {'entrada_dinheiro': 1402.47, 'entrada_cartao': 5863.299999999996, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '300'}
+2024-11-16 - {'entrada_dinheiro': 1502.3900000000006, 'entrada_cartao': 5534.379999999993, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '300'}
+2024-11-17 - {'entrada_dinheiro': 1977.51, 'entrada_cartao': 6392.519999999996, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '250'}
+2024-11-17 - {'entrada_dinheiro': 1982.51, 'entrada_cartao': 6515.769999999996, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '300'}
+2024-11-18 - {'entrada_dinheiro': 872.1300000000001, 'entrada_cartao': 3716.2899999999954, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '0805'}
+2024-11-19 - {'entrada_dinheiro': 830.5000000000001, 'entrada_cartao': 3421.590000000001, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '300'}
+2024-11-20 - {'entrada_dinheiro': 897.48, 'entrada_cartao': 3544.1600000000003, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '300'}
+2024-11-21 - {'entrada_dinheiro': 756.0000000000001, 'entrada_cartao': 2994.679999999998, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '300'}
+2024-11-22 - {'entrada_dinheiro': 999.1700000000002, 'entrada_cartao': 3978.759999999998, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '300'}
+2024-11-23 - {'entrada_dinheiro': 1274.4300000000003, 'entrada_cartao': 5701.799999999991, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '250'}
+2024-11-24 - {'entrada_dinheiro': 2056.31, 'entrada_cartao': 5665.229999999992, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '300'}
+2024-11-25 - {'entrada_dinheiro': 899.17, 'entrada_cartao': 2881.5199999999995, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '250'}
+2024-11-26 - {'entrada_dinheiro': 869.19, 'entrada_cartao': 2962.0899999999992, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '300'}
+2024-11-27 - {'entrada_dinheiro': 1021.9000000000001, 'entrada_cartao': 3188.7000000000007, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '250'}
+2024-11-28 - {'entrada_dinheiro': 879.9700000000001, 'entrada_cartao': 2963.4299999999976, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '250'}
+2024-11-30 - {'entrada_dinheiro': 0, 'entrada_cartao': 0, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '250'}
+2024-11-30 - {'entrada_dinheiro': 1637.8800000000003, 'entrada_cartao': 7011.089999999988, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '250'}
+2024-12-01 - {'entrada_dinheiro': 1363.0300000000002, 'entrada_cartao': 5911.909999999996, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '250'}
+2024-11-29 - {'entrada_dinheiro': 1326.1100000000001, 'entrada_cartao': 4396.969999999999, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '250'}
+2024-12-02 - {'entrada_dinheiro': 621.6100000000001, 'entrada_cartao': 3489.7999999999965, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '250'}
+2024-12-03 - {'entrada_dinheiro': 854.63, 'entrada_cartao': 3347.8899999999994, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '250'}
+2024-12-04 - {'entrada_dinheiro': 1035.5, 'entrada_cartao': 4077.559999999998, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '250'}
+2024-12-05 - {'entrada_dinheiro': 1001.6000000000001, 'entrada_cartao': 3861.7499999999977, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '300'}
+2024-12-07 - {'entrada_dinheiro': 0, 'entrada_cartao': 0, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '120'}
+2024-12-07 - {'entrada_dinheiro': 1471.1100000000001, 'entrada_cartao': 5491.7499999999945, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '300'}
+2024-12-08 - {'entrada_dinheiro': 1434.2200000000003, 'entrada_cartao': 5580.659999999993, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '300'}
+2024-12-09 - {'entrada_dinheiro': 982.34, 'entrada_cartao': 3354.5699999999997, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '300'}
+2024-12-09 - {'entrada_dinheiro': 982.34, 'entrada_cartao': 3354.5699999999997, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '300'}
+2024-12-10 - {'entrada_dinheiro': 1120.89, 'entrada_cartao': 3432.889999999998, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '300'}
+2025-01-19 - {'entrada_dinheiro': 0, 'entrada_cartao': 0, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '183.5'}
+2025-01-19 - {'entrada_dinheiro': 92.5, 'entrada_cartao': 185.5, 'sangrias': 120.0, 'suprimentos': 0, 'caixa_restante': '156'}
+2025-01-20 - {'entrada_dinheiro': 207.0, 'entrada_cartao': 172.49, 'sangrias': 100.0, 'suprimentos': 0, 'caixa_restante': '130'}
+2025-01-21 - {'entrada_dinheiro': 207.0, 'entrada_cartao': 172.49, 'sangrias': 100.0, 'suprimentos': 0, 'caixa_restante': '145'}
+2025-01-21 - {'entrada_dinheiro': 114.5, 'entrada_cartao': 153.5, 'sangrias': 10.0, 'suprimentos': 0, 'caixa_restante': '135'}
+2025-01-22 - {'entrada_dinheiro': 55.99, 'entrada_cartao': 130.49, 'sangrias': 70.0, 'suprimentos': 0, 'caixa_restante': '97'}
+2025-01-23 - {'entrada_dinheiro': 130.05, 'entrada_cartao': 141.0, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '125'}
+2025-01-24 - {'entrada_dinheiro': 118.5, 'entrada_cartao': 84.5, 'sangrias': 14.0, 'suprimentos': 0, 'caixa_restante': '229.5'}
+2025-01-29 - {'entrada_dinheiro': 0, 'entrada_cartao': 0, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '171'}
+2025-01-29 - {'entrada_dinheiro': 36.0, 'entrada_cartao': 44.4, 'sangrias': 43.5, 'suprimentos': 0, 'caixa_restante': '163.5'}
+2025-01-30 - {'entrada_dinheiro': 117.5, 'entrada_cartao': 217.99, 'sangrias': 64.0, 'suprimentos': 0, 'caixa_restante': '217'}
+2025-01-31 - {'entrada_dinheiro': 235.0, 'entrada_cartao': 275.5, 'sangrias': 150.0, 'suprimentos': 0, 'caixa_restante': '302'}
+2025-02-02 - {'entrada_dinheiro': 10.0, 'entrada_cartao': 6.5, 'sangrias': 10.0, 'suprimentos': 0, 'caixa_restante': '300'}
+2025-02-02 - {'entrada_dinheiro': 218.5, 'entrada_cartao': 338.0, 'sangrias': 309.5, 'suprimentos': 0, 'caixa_restante': '209'}
+2025-02-04 - {'entrada_dinheiro': 39.0, 'entrada_cartao': 134.5, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '163.3'}
+2025-02-04 - {'entrada_dinheiro': 39.0, 'entrada_cartao': 134.5, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '166.03'}
+2025-02-04 - {'entrada_dinheiro': 39.0, 'entrada_cartao': 134.5, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '166.030'}
+2025-02-04 - {'entrada_dinheiro': 39.0, 'entrada_cartao': 134.5, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '166'}
+2025-02-05 - {'entrada_dinheiro': 58.0, 'entrada_cartao': 63.0, 'sangrias': 10.0, 'suprimentos': 0, 'caixa_restante': '220.75'}
+2025-02-08 - {'entrada_dinheiro': 211.8, 'entrada_cartao': 348.0, 'sangrias': 162.0, 'suprimentos': 0, 'caixa_restante': '290.55'}
+2025-02-08 - {'entrada_dinheiro': 211.8, 'entrada_cartao': 348.0, 'sangrias': 162.0, 'suprimentos': 0, 'caixa_restante': '290.55'}
+2025-02-08 - {'entrada_dinheiro': 211.8, 'entrada_cartao': 348.0, 'sangrias': 162.0, 'suprimentos': 0, 'caixa_restante': '290.55'}
+2025-02-08 - {'entrada_dinheiro': 211.8, 'entrada_cartao': 348.0, 'sangrias': 162.0, 'suprimentos': 0, 'caixa_restante': '300.55'}
+2025-02-08 - {'entrada_dinheiro': 211.8, 'entrada_cartao': 348.0, 'sangrias': 162.0, 'suprimentos': 0, 'caixa_restante': '300.55'}
+2025-02-08 - {'entrada_dinheiro': 211.8, 'entrada_cartao': 348.0, 'sangrias': 162.0, 'suprimentos': 0, 'caixa_restante': '300'}
+2025-02-08 - {'entrada_dinheiro': 211.8, 'entrada_cartao': 348.0, 'sangrias': 162.0, 'suprimentos': 0, 'caixa_restante': '1000'}
+2025-02-08 - {'entrada_dinheiro': 211.8, 'entrada_cartao': 348.0, 'sangrias': 162.0, 'suprimentos': 0, 'caixa_restante': '300.55'}
+2025-02-08 - {'entrada_dinheiro': 211.8, 'entrada_cartao': 348.0, 'sangrias': 162.0, 'suprimentos': 0, 'caixa_restante': '300.055'}
+2025-02-08 - {'entrada_dinheiro': 215.8, 'entrada_cartao': 348.0, 'sangrias': 162.0, 'suprimentos': 0, 'caixa_restante': '305.05'}
+2025-02-10 - {'entrada_dinheiro': 301.32000000000005, 'entrada_cartao': 280.98, 'sangrias': 181.01, 'suprimentos': 0, 'caixa_restante': '415.35'}
+2025-02-14 - {'entrada_dinheiro': 42.980000000000004, 'entrada_cartao': 94.98, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '289.83'}
+2025-02-20 - {'entrada_dinheiro': 242.31, 'entrada_cartao': 253.86, 'sangrias': 258.7, 'suprimentos': 10.0, 'caixa_restante': '233.5'}
+2025-03-18 - {'entrada_dinheiro': 0, 'entrada_cartao': 0, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '150'}
+2025-03-18 - {'entrada_dinheiro': 0, 'entrada_cartao': 0, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '99'}
+2025-03-19 - {'entrada_dinheiro': 10.0, 'entrada_cartao': 0, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '10'}
+2025-03-19 - {'entrada_dinheiro': 0, 'entrada_cartao': 0, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '100'}
+2025-03-20 - {'entrada_dinheiro': 205.52, 'entrada_cartao': 0, 'sangrias': 140.0, 'suprimentos': 27.48, 'caixa_restante': '193'}
+2025-03-22 - {'entrada_dinheiro': 521.48, 'entrada_cartao': 0, 'sangrias': 345.0, 'suprimentos': 3.0, 'caixa_restante': '150'}
+2025-03-23 - {'entrada_dinheiro': 453.71000000000004, 'entrada_cartao': 0, 'sangrias': 75.0, 'suprimentos': 30.0, 'caixa_restante': '245'}
+2025-03-24 - {'entrada_dinheiro': 270.96000000000004, 'entrada_cartao': 0, 'sangrias': 180.0, 'suprimentos': 2.0, 'caixa_restante': '276'}
+2025-03-25 - {'entrada_dinheiro': 169.98, 'entrada_cartao': 180.82999999999998, 'sangrias': 94.5, 'suprimentos': 0, 'caixa_restante': '208'}
+2025-03-26 - {'entrada_dinheiro': 271.47, 'entrada_cartao': 217.19000000000003, 'sangrias': 120.0, 'suprimentos': 0, 'caixa_restante': '240.50'}
+2025-03-28 - {'entrada_dinheiro': 350.71000000000004, 'entrada_cartao': 516.1600000000001, 'sangrias': 100.0, 'suprimentos': 0, 'caixa_restante': '260'}
+2025-03-29 - {'entrada_dinheiro': 403.74, 'entrada_cartao': 621.69, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '265'}
+2025-03-29 - {'entrada_dinheiro': 257.45, 'entrada_cartao': 118.5, 'sangrias': 60.0, 'suprimentos': 5.15, 'caixa_restante': '496.70'}
+2025-03-30 - {'entrada_dinheiro': 160.54000000000002, 'entrada_cartao': 142.99, 'sangrias': 55.0, 'suprimentos': 0, 'caixa_restante': '110'}
+2025-03-31 - {'entrada_dinheiro': 298.92, 'entrada_cartao': 644.97, 'sangrias': 140.0, 'suprimentos': 6.48, 'caixa_restante': '140'}
+2025-04-01 - {'entrada_dinheiro': 175.0, 'entrada_cartao': 160.04000000000002, 'sangrias': 0, 'suprimentos': 61.0, 'caixa_restante': '206'}
+2025-04-01 - {'entrada_dinheiro': 22.0, 'entrada_cartao': 40.0, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '238'}
+2025-04-02 - {'entrada_dinheiro': 169.76, 'entrada_cartao': 143.47, 'sangrias': 160.0, 'suprimentos': 0, 'caixa_restante': '248.75'}
+2025-04-02 - {'entrada_dinheiro': 107.10000000000001, 'entrada_cartao': 90.19999999999999, 'sangrias': 135.0, 'suprimentos': 0, 'caixa_restante': '232.35'}
+2025-04-03 - {'entrada_dinheiro': 158.92000000000002, 'entrada_cartao': 128.94, 'sangrias': 70.0, 'suprimentos': 0, 'caixa_restante': '321.9'}
+2025-04-04 - {'entrada_dinheiro': 344.14, 'entrada_cartao': 196.37, 'sangrias': 20.0, 'suprimentos': 0, 'caixa_restante': '246.65'}
+2025-04-05 - {'entrada_dinheiro': 450.18000000000006, 'entrada_cartao': 702.19, 'sangrias': 77.5, 'suprimentos': 0, 'caixa_restante': '319.90'}
+2025-04-06 - {'entrada_dinheiro': 486.34000000000003, 'entrada_cartao': 758.3100000000002, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '316'}
+2025-04-07 - {'entrada_dinheiro': 330.94000000000005, 'entrada_cartao': 762.6700000000002, 'sangrias': 60.0, 'suprimentos': 0, 'caixa_restante': '229.95'}
+2025-04-08 - {'entrada_dinheiro': 186.97000000000003, 'entrada_cartao': 209.46, 'sangrias': 4.0, 'suprimentos': 0, 'caixa_restante': '412.95'}
+2025-04-09 - {'entrada_dinheiro': 212.68, 'entrada_cartao': 266.01, 'sangrias': 24.0, 'suprimentos': 0, 'caixa_restante': '344.20'}
+2025-04-10 - {'entrada_dinheiro': 433.76000000000005, 'entrada_cartao': 185.72000000000003, 'sangrias': 230.0, 'suprimentos': 0, 'caixa_restante': '303.05'}
+2025-04-11 - {'entrada_dinheiro': 261.44, 'entrada_cartao': 158.97, 'sangrias': 82.0, 'suprimentos': 0, 'caixa_restante': '477.65'}
+2025-04-11 - {'entrada_dinheiro': 121.9, 'entrada_cartao': 94.97, 'sangrias': 60.0, 'suprimentos': 0, 'caixa_restante': '300.8'}
+2025-04-12 - {'entrada_dinheiro': 221.0, 'entrada_cartao': 300.69, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '318.80'}
+2025-04-13 - {'entrada_dinheiro': 537.96, 'entrada_cartao': 914.4100000000001, 'sangrias': 100.0, 'suprimentos': 0, 'caixa_restante': '368.30'}
+2025-04-13 - {'entrada_dinheiro': 188.78, 'entrada_cartao': 138.96, 'sangrias': 55.0, 'suprimentos': 0, 'caixa_restante': '474'}
+2025-04-13 - {'entrada_dinheiro': 129.35999999999999, 'entrada_cartao': 78.98, 'sangrias': 30.0, 'suprimentos': 40.0, 'caixa_restante': '328.6'}
+2025-04-14 - {'entrada_dinheiro': 143.0, 'entrada_cartao': 25.1, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '260'}
+2025-04-15 - {'entrada_dinheiro': 297.49, 'entrada_cartao': 191.96, 'sangrias': 65.0, 'suprimentos': 0, 'caixa_restante': '228.4'}
+2025-04-16 - {'entrada_dinheiro': 381.58, 'entrada_cartao': 256.78, 'sangrias': 80.0, 'suprimentos': 20.0, 'caixa_restante': '255.35'}
+2025-04-17 - {'entrada_dinheiro': 413.15000000000003, 'entrada_cartao': 203.35999999999999, 'sangrias': 122.0, 'suprimentos': 0, 'caixa_restante': '250.3'}
+2025-04-18 - {'entrada_dinheiro': 488.46000000000004, 'entrada_cartao': 601.4300000000001, 'sangrias': 521.0, 'suprimentos': 0, 'caixa_restante': '204.3'}
+2025-04-18 - {'entrada_dinheiro': 274.06, 'entrada_cartao': 264.64, 'sangrias': 50.0, 'suprimentos': 0, 'caixa_restante': '211.8'}
+2025-04-19 - {'entrada_dinheiro': 334.41, 'entrada_cartao': 166.49, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '251.80'}
+2025-04-20 - {'entrada_dinheiro': 684.3199999999999, 'entrada_cartao': 859.09, 'sangrias': 260.0, 'suprimentos': 52.0, 'caixa_restante': '260'}
+2025-04-22 - {'entrada_dinheiro': 603.98, 'entrada_cartao': 600.1999999999999, 'sangrias': 462.5, 'suprimentos': 0, 'caixa_restante': '215'}
+2025-04-25 - {'entrada_dinheiro': 634.81, 'entrada_cartao': 504.0200000000001, 'sangrias': 389.0, 'suprimentos': 10.0, 'caixa_restante': '280.5'}
+2025-04-26 - {'entrada_dinheiro': 741.5, 'entrada_cartao': 667.6500000000001, 'sangrias': 577.0, 'suprimentos': 30.0, 'caixa_restante': '475.75'}
+2025-04-27 - {'entrada_dinheiro': 393.63, 'entrada_cartao': 209.98000000000002, 'sangrias': 63.0, 'suprimentos': 0, 'caixa_restante': '320'}
+2025-04-27 - {'entrada_dinheiro': 140.05, 'entrada_cartao': 192.98000000000002, 'sangrias': 109.0, 'suprimentos': 0, 'caixa_restante': '352.55'}
+2025-04-30 - {'entrada_dinheiro': 889.5999999999999, 'entrada_cartao': 569.47, 'sangrias': 706.5, 'suprimentos': 1.0, 'caixa_restante': '287.5'}
+2025-05-01 - {'entrada_dinheiro': 574.9200000000001, 'entrada_cartao': 579.7, 'sangrias': 110.0, 'suprimentos': 0, 'caixa_restante': '292'}
+2025-05-01 - {'entrada_dinheiro': 351.71000000000004, 'entrada_cartao': 236.99, 'sangrias': 65.0, 'suprimentos': 0, 'caixa_restante': '572'}
+2025-05-04 - {'entrada_dinheiro': 1381.8600000000001, 'entrada_cartao': 592.99, 'sangrias': 1112.5, 'suprimentos': 5.0, 'caixa_restante': '362'}
+2025-05-05 - {'entrada_dinheiro': 416.02000000000004, 'entrada_cartao': 498.47, 'sangrias': 211.0, 'suprimentos': 9.0, 'caixa_restante': '267'}
+2025-05-07 - {'entrada_dinheiro': 709.94, 'entrada_cartao': 480.88000000000005, 'sangrias': 179.0, 'suprimentos': 0, 'caixa_restante': '332'}
+2025-05-08 - {'entrada_dinheiro': 245.09, 'entrada_cartao': 377.71999999999997, 'sangrias': 452.0, 'suprimentos': 0, 'caixa_restante': '291'}
+2025-05-09 - {'entrada_dinheiro': 766.92, 'entrada_cartao': 657.76, 'sangrias': 178.0, 'suprimentos': 150.0, 'caixa_restante': '261'}
+2025-05-09 - {'entrada_dinheiro': 295.96000000000004, 'entrada_cartao': 227.06, 'sangrias': 63.0, 'suprimentos': 1.0, 'caixa_restante': '502.20'}
+2025-05-11 - {'entrada_dinheiro': 1353.77, 'entrada_cartao': 1121.92, 'sangrias': 1116.75, 'suprimentos': 23.5, 'caixa_restante': '369.55'}
+2025-05-13 - {'entrada_dinheiro': 745.3900000000001, 'entrada_cartao': 616.75, 'sangrias': 578.0, 'suprimentos': 18.0, 'caixa_restante': '258.75'}
+2025-05-14 - {'entrada_dinheiro': 541.0500000000001, 'entrada_cartao': 146.49, 'sangrias': 70.0, 'suprimentos': 0, 'caixa_restante': '212'}
+2025-05-16 - {'entrada_dinheiro': 743.4200000000001, 'entrada_cartao': 836.19, 'sangrias': 289.0, 'suprimentos': 7.5, 'caixa_restante': '298'}
+2025-05-17 - {'entrada_dinheiro': 426.49, 'entrada_cartao': 517.4300000000001, 'sangrias': 158.0, 'suprimentos': 30.0, 'caixa_restante': '240.3'}
+2025-05-18 - {'entrada_dinheiro': 1209.95, 'entrada_cartao': 1025.3200000000002, 'sangrias': 340.0, 'suprimentos': 0, 'caixa_restante': '311.50'}
+2025-05-20 - {'entrada_dinheiro': 344.2, 'entrada_cartao': 590.37, 'sangrias': 115.0, 'suprimentos': 0, 'caixa_restante': '424.40'}
+2025-05-22 - {'entrada_dinheiro': 755.7600000000001, 'entrada_cartao': 890.0, 'sangrias': 616.0, 'suprimentos': 10.0, 'caixa_restante': '321'}
+2025-05-22 - {'entrada_dinheiro': 176.99, 'entrada_cartao': 149.48000000000002, 'sangrias': 290.0, 'suprimentos': 50.0, 'caixa_restante': '262'}
+2025-05-23 - {'entrada_dinheiro': 317.46000000000004, 'entrada_cartao': 139.56, 'sangrias': 150.0, 'suprimentos': 0, 'caixa_restante': '438.5'}
+2025-05-24 - {'entrada_dinheiro': 530.95, 'entrada_cartao': 586.57, 'sangrias': 662.0, 'suprimentos': 9.5, 'caixa_restante': '332'}
+2025-05-25 - {'entrada_dinheiro': 421.5, 'entrada_cartao': 227.93999999999997, 'sangrias': 80.0, 'suprimentos': 0, 'caixa_restante': '718.75'}
+2025-05-25 - {'entrada_dinheiro': 167.95, 'entrada_cartao': 176.5, 'sangrias': 350.0, 'suprimentos': 0, 'caixa_restante': '256.50'}
+2025-05-26 - {'entrada_dinheiro': 351.62, 'entrada_cartao': 320.48, 'sangrias': 172.0, 'suprimentos': 76.0, 'caixa_restante': '359'}
+2025-05-27 - {'entrada_dinheiro': 219.57999999999998, 'entrada_cartao': 335.21000000000004, 'sangrias': 65.0, 'suprimentos': 0, 'caixa_restante': '277'}
+2025-05-29 - {'entrada_dinheiro': 689.39, 'entrada_cartao': 476.97, 'sangrias': 360.0, 'suprimentos': 49.0, 'caixa_restante': '317.4'}
+2025-05-29 - {'entrada_dinheiro': 689.39, 'entrada_cartao': 476.97, 'sangrias': 360.0, 'suprimentos': 49.0, 'caixa_restante': '317.4'}
+2025-05-30 - {'entrada_dinheiro': 1094.02, 'entrada_cartao': 601.9200000000001, 'sangrias': 748.39, 'suprimentos': 94.5, 'caixa_restante': '332.5'}
+2025-05-31 - {'entrada_dinheiro': 467.31000000000006, 'entrada_cartao': 285.45000000000005, 'sangrias': 682.13, 'suprimentos': 0, 'caixa_restante': '293'}
+2025-05-31 - {'entrada_dinheiro': 61.480000000000004, 'entrada_cartao': 78.10000000000001, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '255.95'}
+2025-06-01 - {'entrada_dinheiro': 351.43000000000006, 'entrada_cartao': 375.37, 'sangrias': 360.0, 'suprimentos': 21.5, 'caixa_restante': '296.25'}
+2025-06-01 - {'entrada_dinheiro': 85.24, 'entrada_cartao': 414.99, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '341.50'}
+2025-06-01 - {'entrada_dinheiro': 285.42, 'entrada_cartao': 410.96000000000004, 'sangrias': 265.0, 'suprimentos': 0, 'caixa_restante': '364.4'}
+2025-06-02 - {'entrada_dinheiro': 424.11, 'entrada_cartao': 394.18, 'sangrias': 230.0, 'suprimentos': 0, 'caixa_restante': '263.50'}
+2025-06-06 - {'entrada_dinheiro': 1423.8400000000001, 'entrada_cartao': 1166.8600000000001, 'sangrias': 441.95, 'suprimentos': 0, 'caixa_restante': '315.50'}
+2025-06-06 - {'entrada_dinheiro': 464.97, 'entrada_cartao': 524.13, 'sangrias': 56.0, 'suprimentos': 9.0, 'caixa_restante': '738.85'}
+2025-06-07 - {'entrada_dinheiro': 241.43, 'entrada_cartao': 299.45, 'sangrias': 540.0, 'suprimentos': 0, 'caixa_restante': '440.10'}
+2025-06-08 - {'entrada_dinheiro': 583.23, 'entrada_cartao': 706.4000000000001, 'sangrias': 305.0, 'suprimentos': 0, 'caixa_restante': '312.70'}
+2025-06-10 - {'entrada_dinheiro': 773.1800000000001, 'entrada_cartao': 667.8499999999999, 'sangrias': 562.56, 'suprimentos': 25.0, 'caixa_restante': '262.4'}
+2025-06-11 - {'entrada_dinheiro': 511.52000000000004, 'entrada_cartao': 783.6700000000001, 'sangrias': 245.0, 'suprimentos': 0, 'caixa_restante': '336'}
+2025-06-13 - {'entrada_dinheiro': 525.9499999999999, 'entrada_cartao': 364.70000000000005, 'sangrias': 115.0, 'suprimentos': 0, 'caixa_restante': '434.10'}
+2025-06-14 - {'entrada_dinheiro': 578.7800000000001, 'entrada_cartao': 705.3800000000001, 'sangrias': 205.0, 'suprimentos': 0, 'caixa_restante': '319'}
+2025-06-15 - {'entrada_dinheiro': 544.09, 'entrada_cartao': 463.44000000000005, 'sangrias': 171.0, 'suprimentos': 0, 'caixa_restante': '344'}
+2025-06-17 - {'entrada_dinheiro': 1036.8600000000001, 'entrada_cartao': 786.0, 'sangrias': 736.0, 'suprimentos': 18.0, 'caixa_restante': '258.5'}
+2025-06-17 - {'entrada_dinheiro': 59.0, 'entrada_cartao': 37.5, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '318.50'}
+2025-06-17 - {'entrada_dinheiro': 0, 'entrada_cartao': 0, 'sangrias': 45.0, 'suprimentos': 45.0, 'caixa_restante': '318.05'}
+2025-06-18 - {'entrada_dinheiro': 292.0, 'entrada_cartao': 287.67, 'sangrias': 90.0, 'suprimentos': 0, 'caixa_restante': '258.5'}
+2025-06-19 - {'entrada_dinheiro': 507.08000000000004, 'entrada_cartao': 204.98000000000002, 'sangrias': 140.0, 'suprimentos': 0, 'caixa_restante': '189.5'}
+2025-06-20 - {'entrada_dinheiro': 501.13, 'entrada_cartao': 690.4200000000001, 'sangrias': 148.0, 'suprimentos': 0, 'caixa_restante': '203'}
+2025-06-20 - {'entrada_dinheiro': 75.5, 'entrada_cartao': 31.5, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '285.50'}
+2025-06-21 - {'entrada_dinheiro': 355.69, 'entrada_cartao': 595.83, 'sangrias': 10.0, 'suprimentos': 0, 'caixa_restante': '621.85'}
+2025-06-21 - {'entrada_dinheiro': 226.15, 'entrada_cartao': 151.98, 'sangrias': 135.0, 'suprimentos': 0, 'caixa_restante': '183'}
+2025-06-23 - {'entrada_dinheiro': 1168.69, 'entrada_cartao': 1422.3300000000002, 'sangrias': 268.0, 'suprimentos': 0, 'caixa_restante': '289'}
+2025-06-23 - {'entrada_dinheiro': 185.0, 'entrada_cartao': 124.5, 'sangrias': 10.0, 'suprimentos': 0, 'caixa_restante': '214'}
+2025-06-23 - {'entrada_dinheiro': 165.04999999999998, 'entrada_cartao': 91.0, 'sangrias': 63.5, 'suprimentos': 0, 'caixa_restante': '417'}
+2025-06-24 - {'entrada_dinheiro': 197.5, 'entrada_cartao': 122.5, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '244'}
+2025-06-26 - {'entrada_dinheiro': 619.9600000000002, 'entrada_cartao': 567.69, 'sangrias': 230.0, 'suprimentos': 10.0, 'caixa_restante': '303'}
+2025-06-28 - {'entrada_dinheiro': 414.32, 'entrada_cartao': 841.35, 'sangrias': 318.65, 'suprimentos': 100.0, 'caixa_restante': '244'}
+2025-06-28 - {'entrada_dinheiro': 314.96000000000004, 'entrada_cartao': 358.29, 'sangrias': 115.0, 'suprimentos': 0, 'caixa_restante': '462.70'}
+2025-06-30 - {'entrada_dinheiro': 699.9000000000001, 'entrada_cartao': 979.46, 'sangrias': 414.0, 'suprimentos': 0, 'caixa_restante': '283'}
+2025-07-01 - {'entrada_dinheiro': 204.98000000000002, 'entrada_cartao': 118.49, 'sangrias': 175.0, 'suprimentos': 40.0, 'caixa_restante': '309.50'}
+2025-07-01 - {'entrada_dinheiro': 457.28, 'entrada_cartao': 270.98, 'sangrias': 148.0, 'suprimentos': 10.0, 'caixa_restante': '222'}
+2025-07-03 - {'entrada_dinheiro': 276.9, 'entrada_cartao': 507.48, 'sangrias': 215.0, 'suprimentos': 51.0, 'caixa_restante': '228'}
+2025-07-03 - {'entrada_dinheiro': 168.5, 'entrada_cartao': 76.0, 'sangrias': 30.0, 'suprimentos': 2.0, 'caixa_restante': '303'}
+2025-07-04 - {'entrada_dinheiro': 323.49, 'entrada_cartao': 344.48, 'sangrias': 240.0, 'suprimentos': 79.0, 'caixa_restante': '292.50'}
+2025-07-05 - {'entrada_dinheiro': 711.0699999999999, 'entrada_cartao': 1062.0400000000002, 'sangrias': 350.0, 'suprimentos': 0.25, 'caixa_restante': '283'}
+2025-07-06 - {'entrada_dinheiro': 467.4199999999999, 'entrada_cartao': 664.85, 'sangrias': 100.0, 'suprimentos': 0, 'caixa_restante': '350.42'}
+2025-07-06 - {'entrada_dinheiro': 768.47, 'entrada_cartao': 743.99, 'sangrias': 130.0, 'suprimentos': 0, 'caixa_restante': '297'}
+2025-07-07 - {'entrada_dinheiro': 319.29, 'entrada_cartao': 184.0, 'sangrias': 96.0, 'suprimentos': 0, 'caixa_restante': '375.50'}
+2025-07-08 - {'entrada_dinheiro': 387.97, 'entrada_cartao': 305.99, 'sangrias': 210.0, 'suprimentos': 0, 'caixa_restante': '253'}
+2025-07-09 - {'entrada_dinheiro': 351.97, 'entrada_cartao': 406.94000000000005, 'sangrias': 115.0, 'suprimentos': 1.0, 'caixa_restante': '302.45'}
+2025-07-11 - {'entrada_dinheiro': 730.96, 'entrada_cartao': 982.9800000000001, 'sangrias': 605.0, 'suprimentos': 0, 'caixa_restante': '351'}
+2025-07-12 - {'entrada_dinheiro': 415.23, 'entrada_cartao': 299.98, 'sangrias': 200.0, 'suprimentos': 0, 'caixa_restante': '460'}
+2025-07-12 - {'entrada_dinheiro': 0, 'entrada_cartao': 0, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '360'}
+2025-07-12 - {'entrada_dinheiro': 339.75, 'entrada_cartao': 441.86, 'sangrias': 5.0, 'suprimentos': 60.0, 'caixa_restante': '322'}
+2025-07-12 - {'entrada_dinheiro': 286.78999999999996, 'entrada_cartao': 275.93, 'sangrias': 45.0, 'suprimentos': 0, 'caixa_restante': '327.80'}
+2025-07-14 - {'entrada_dinheiro': 873.4000000000001, 'entrada_cartao': 862.62, 'sangrias': 335.0, 'suprimentos': 37.5, 'caixa_restante': '314'}
+2025-07-15 - {'entrada_dinheiro': 278.68, 'entrada_cartao': 336.94, 'sangrias': 157.0, 'suprimentos': 0, 'caixa_restante': '266'}
+2025-07-16 - {'entrada_dinheiro': 195.6, 'entrada_cartao': 310.75, 'sangrias': 150.0, 'suprimentos': 0, 'caixa_restante': '312'}
+2025-07-16 - {'entrada_dinheiro': 81.25, 'entrada_cartao': 55.64, 'sangrias': 50.0, 'suprimentos': 0, 'caixa_restante': '346'}
+2025-07-17 - {'entrada_dinheiro': 393.33, 'entrada_cartao': 304.5, 'sangrias': 67.0, 'suprimentos': 0, 'caixa_restante': '295.90'}
+2025-07-17 - {'entrada_dinheiro': 0, 'entrada_cartao': 0, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '301'}
+2025-07-18 - {'entrada_dinheiro': 301.98, 'entrada_cartao': 131.97, 'sangrias': 200.0, 'suprimentos': 0, 'caixa_restante': '284.25'}
+2025-07-19 - {'entrada_dinheiro': 572.3800000000001, 'entrada_cartao': 371.18000000000006, 'sangrias': 65.0, 'suprimentos': 200.0, 'caixa_restante': '235.4'}
+2025-07-19 - {'entrada_dinheiro': 233.5, 'entrada_cartao': 193.98000000000002, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '202'}
+2025-07-19 - {'entrada_dinheiro': 0, 'entrada_cartao': 0, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '303'}
+2025-07-21 - {'entrada_dinheiro': 836.29, 'entrada_cartao': 813.6600000000001, 'sangrias': 272.0, 'suprimentos': 0, 'caixa_restante': '280'}
+2025-07-22 - {'entrada_dinheiro': 284.57, 'entrada_cartao': 488.17, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '119.10'}
+2025-07-23 - {'entrada_dinheiro': 215.70000000000002, 'entrada_cartao': 357.87, 'sangrias': 30.0, 'suprimentos': 90.0, 'caixa_restante': '317.55'}
+2025-07-23 - {'entrada_dinheiro': 129.73000000000002, 'entrada_cartao': 4.99, 'sangrias': 20.0, 'suprimentos': 0, 'caixa_restante': '205.5'}
+2025-07-24 - {'entrada_dinheiro': 230.21, 'entrada_cartao': 264.24, 'sangrias': 10.0, 'suprimentos': 5.0, 'caixa_restante': '215'}
+2025-07-24 - {'entrada_dinheiro': 185.04, 'entrada_cartao': 49.0, 'sangrias': 30.0, 'suprimentos': 0, 'caixa_restante': '313'}
+2025-07-25 - {'entrada_dinheiro': 172.25, 'entrada_cartao': 359.25, 'sangrias': 31.0, 'suprimentos': 0, 'caixa_restante': '303'}
+2025-07-25 - {'entrada_dinheiro': 133.75, 'entrada_cartao': 318.02, 'sangrias': 61.0, 'suprimentos': 0, 'caixa_restante': '263.50'}
+2025-07-27 - {'entrada_dinheiro': 963.15, 'entrada_cartao': 1215.68, 'sangrias': 100.0, 'suprimentos': 0, 'caixa_restante': '271'}
+2025-07-28 - {'entrada_dinheiro': 286.5, 'entrada_cartao': 572.0699999999999, 'sangrias': 35.0, 'suprimentos': 0, 'caixa_restante': '162'}
+2025-07-29 - {'entrada_dinheiro': 289.45000000000005, 'entrada_cartao': 169.10999999999999, 'sangrias': 170.0, 'suprimentos': 0, 'caixa_restante': '206.25'}
+2025-07-31 - {'entrada_dinheiro': 643.12, 'entrada_cartao': 643.06, 'sangrias': 274.0, 'suprimentos': 0, 'caixa_restante': '220'}
+2025-07-31 - {'entrada_dinheiro': 86.5, 'entrada_cartao': 206.5, 'sangrias': 80.0, 'suprimentos': 0, 'caixa_restante': '224.50'}
+2025-08-01 - {'entrada_dinheiro': 394.49, 'entrada_cartao': 427.75, 'sangrias': 80.0, 'suprimentos': 0, 'caixa_restante': '259'}
+2025-08-02 - {'entrada_dinheiro': 620.2, 'entrada_cartao': 626.9300000000001, 'sangrias': 107.0, 'suprimentos': 19.0, 'caixa_restante': '172.50'}
+2025-08-03 - {'entrada_dinheiro': 585.96, 'entrada_cartao': 836.82, 'sangrias': 175.0, 'suprimentos': 50.0, 'caixa_restante': '237'}
+2025-08-04 - {'entrada_dinheiro': 475.38, 'entrada_cartao': 368.61, 'sangrias': 110.0, 'suprimentos': 0, 'caixa_restante': '236'}
+2025-08-05 - {'entrada_dinheiro': 290.3, 'entrada_cartao': 461.25, 'sangrias': 70.0, 'suprimentos': 0, 'caixa_restante': '240.75'}
+2025-08-06 - {'entrada_dinheiro': 270.85, 'entrada_cartao': 358.24, 'sangrias': 60.0, 'suprimentos': 0, 'caixa_restante': '255'}
+2025-08-06 - {'entrada_dinheiro': 153.48000000000002, 'entrada_cartao': 257.41999999999996, 'sangrias': 133.0, 'suprimentos': 0, 'caixa_restante': '250'}
+2025-08-07 - {'entrada_dinheiro': 667.19, 'entrada_cartao': 440.13, 'sangrias': 110.0, 'suprimentos': 10.0, 'caixa_restante': '224'}
+2025-08-08 - {'entrada_dinheiro': 583.4, 'entrada_cartao': 325.2, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '243'}
+2025-08-09 - {'entrada_dinheiro': 646.75, 'entrada_cartao': 577.96, 'sangrias': 260.0, 'suprimentos': 0, 'caixa_restante': '266.90'}
+2025-08-10 - {'entrada_dinheiro': 485.22, 'entrada_cartao': 586.49, 'sangrias': 65.0, 'suprimentos': 0, 'caixa_restante': '250'}
+2025-08-11 - {'entrada_dinheiro': 733.12, 'entrada_cartao': 992.1600000000001, 'sangrias': 170.0, 'suprimentos': 50.0, 'caixa_restante': '260'}
+2025-08-11 - {'entrada_dinheiro': 112.28999999999999, 'entrada_cartao': 55.75, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '241'}
+2025-08-12 - {'entrada_dinheiro': 159.4, 'entrada_cartao': 123.99000000000001, 'sangrias': 6.0, 'suprimentos': 0, 'caixa_restante': '294'}
+2025-08-13 - {'entrada_dinheiro': 288.5, 'entrada_cartao': 503.25, 'sangrias': 155.0, 'suprimentos': 0, 'caixa_restante': '441'}
+2025-08-14 - {'entrada_dinheiro': 316.74, 'entrada_cartao': 340.75, 'sangrias': 110.0, 'suprimentos': 4.0, 'caixa_restante': '265'}
+2025-08-15 - {'entrada_dinheiro': 318.21000000000004, 'entrada_cartao': 477.71, 'sangrias': 155.0, 'suprimentos': 0, 'caixa_restante': '195'}
+2025-08-15 - {'entrada_dinheiro': 166.3, 'entrada_cartao': 249.0, 'sangrias': 0, 'suprimentos': 50.0, 'caixa_restante': '261'}
+2025-08-16 - {'entrada_dinheiro': 365.9, 'entrada_cartao': 445.6, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '220'}
+2025-08-16 - {'entrada_dinheiro': 201.0, 'entrada_cartao': 113.47999999999999, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '178'}
+2025-08-17 - {'entrada_dinheiro': 637.5999999999999, 'entrada_cartao': 759.36, 'sangrias': 100.0, 'suprimentos': 23.0, 'caixa_restante': '207'}
+2025-08-18 - {'entrada_dinheiro': 701.1100000000001, 'entrada_cartao': 514.51, 'sangrias': 16.25, 'suprimentos': 0, 'caixa_restante': '244'}
+2025-08-19 - {'entrada_dinheiro': 284.18, 'entrada_cartao': 490.0700000000001, 'sangrias': 15.0, 'suprimentos': 0, 'caixa_restante': '213.50'}
+2025-08-20 - {'entrada_dinheiro': 477.53000000000003, 'entrada_cartao': 362.23, 'sangrias': 101.0, 'suprimentos': 7.0, 'caixa_restante': '238'}
+2025-08-21 - {'entrada_dinheiro': 565.48, 'entrada_cartao': 386.04, 'sangrias': 90.0, 'suprimentos': 0, 'caixa_restante': '237'}
+2025-08-22 - {'entrada_dinheiro': 320.0, 'entrada_cartao': 391.45, 'sangrias': 166.6, 'suprimentos': 0, 'caixa_restante': '228'}
+2025-08-23 - {'entrada_dinheiro': 453.56000000000006, 'entrada_cartao': 925.7, 'sangrias': 65.0, 'suprimentos': 5.0, 'caixa_restante': '236'}
+2025-08-24 - {'entrada_dinheiro': 533.97, 'entrada_cartao': 506.33, 'sangrias': 225.0, 'suprimentos': 12.0, 'caixa_restante': '247'}
+2025-08-24 23:22:04.095063 - {'entrada_dinheiro': 477.23, 'entrada_cartao': 690.8300000000002, 'sangrias': 107.0, 'suprimentos': 0, 'caixa_restante': '200'}
+2025-08-24 23:23:46.762023 - {'entrada_dinheiro': 0, 'entrada_cartao': 0, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '125'}
+2025-08-24 23:25:00.446748 - {'entrada_dinheiro': 0, 'entrada_cartao': 0, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '50'}
+2025-08-24 23:25:18.664044 - {'entrada_dinheiro': 0, 'entrada_cartao': 0, 'sangrias': 0, 'suprimentos': 0, 'caixa_restante': '12'}
+2025-08-25 - {'entrada_dinheiro': 53.5, 'entrada_cartao': 67.0, 'sangrias': 10.5, 'suprimentos': 0, 'caixa_restante': '236'}
+2025-08-26 - {'entrada_dinheiro': 465.03, 'entrada_cartao': 295.23, 'sangrias': 15.0, 'suprimentos': 0, 'caixa_restante': '231'}
+2025-08-27 - {'entrada_dinheiro': 383.49, 'entrada_cartao': 521.72, 'sangrias': 81.25, 'suprimentos': 0, 'caixa_restante': '222'}
+2025-08-28 01:14:34 - {'entrada_dinheiro': 359.72, 'entrada_cartao': 423.89, 'sangrias': 45.0, 'suprimentos': 0, 'caixa_restante': '211'}
+2025-08-29 01:17:41 - {'entrada_dinheiro': 251.5, 'entrada_cartao': 441.16, 'sangrias': 295.75, 'suprimentos': 0, 'caixa_restante': '166.75'}
+2025-08-30 02:50:46 - {'entrada_dinheiro': 861.8600000000001, 'entrada_cartao': 700.3100000000001, 'sangrias': 100.0, 'suprimentos': 0, 'caixa_restante': '222'}
+2025-08-31 13:57:21 - {'entrada_dinheiro': 1035.6, 'entrada_cartao': 896.03, 'sangrias': 170.0, 'suprimentos': 40.0, 'caixa_restante': '85'}
+2025-09-01 02:08:26 - {'entrada_dinheiro': 347.3, 'entrada_cartao': 705.41, 'sangrias': 46.8, 'suprimentos': 0, 'caixa_restante': '192.50'}
+2025-09-02 01:13:15 - {'entrada_dinheiro': 265.27, 'entrada_cartao': 176.5, 'sangrias': 46.5, 'suprimentos': 0, 'caixa_restante': '242.50'}
+2025-09-03 04:04:28 - {'entrada_dinheiro': 371.9, 'entrada_cartao': 420.0, 'sangrias': 216.0, 'suprimentos': 10.0, 'caixa_restante': '259'}
+2025-09-04 02:28:19 - {'entrada_dinheiro': 264.39, 'entrada_cartao': 462.18, 'sangrias': 151.0, 'suprimentos': 0, 'caixa_restante': '185'}
+2025-09-05 01:15:39 - {'entrada_dinheiro': 236.49, 'entrada_cartao': 346.25, 'sangrias': 22.5, 'suprimentos': 0, 'caixa_restante': '210'}
+2025-09-06 11:52:38 - {'entrada_dinheiro': 1150.58, 'entrada_cartao': 764.35, 'sangrias': 248.14, 'suprimentos': 6.0, 'caixa_restante': '237.50'}
+2025-09-07 03:55:35 - {'entrada_dinheiro': 770.78, 'entrada_cartao': 1126.74, 'sangrias': 100.0, 'suprimentos': 0, 'caixa_restante': '191'}
+2025-09-08 01:47:47 - {'entrada_dinheiro': 734.95, 'entrada_cartao': 999.1300000000001, 'sangrias': 193.0, 'suprimentos': 0, 'caixa_restante': '245'}
+2025-09-09 01:10:40 - {'entrada_dinheiro': 309.42, 'entrada_cartao': 237.76000000000002, 'sangrias': 27.0, 'suprimentos': 0, 'caixa_restante': '234'}
+2025-09-10 00:58:43 - {'entrada_dinheiro': 489.32, 'entrada_cartao': 342.62, 'sangrias': 85.0, 'suprimentos': 0, 'caixa_restante': '200'}
+2025-09-11 01:09:50 - {'entrada_dinheiro': 289.98, 'entrada_cartao': 327.25, 'sangrias': 360.0, 'suprimentos': 0, 'caixa_restante': '130'}
+2025-09-12 02:26:58 - {'entrada_dinheiro': 568.49, 'entrada_cartao': 357.16999999999996, 'sangrias': 82.0, 'suprimentos': 0, 'caixa_restante': '200'}
+2025-09-13 03:10:24 - {'entrada_dinheiro': 394.9, 'entrada_cartao': 876.89, 'sangrias': 68.0, 'suprimentos': 0, 'caixa_restante': '241'}
+2025-09-14 15:49:39 - {'entrada_dinheiro': 1058.53, 'entrada_cartao': 935.36, 'sangrias': 314.0, 'suprimentos': 0, 'caixa_restante': '240'}

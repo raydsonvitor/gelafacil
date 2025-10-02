@@ -1,0 +1,173 @@
+2025-07-02 22:06:08 -  'AdmInterface' object has no attribute 'update_clock'
+Traceback (most recent call last):
+  File "c:\Users\vitor\Documents\projetos\mercadoemergencial_1.1\app_adm.py", line 20, in main
+    app = AdmInterface(root, tela_width, tela_height, version)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vitor\Documents\projetos\mercadoemergencial_1.1\interface_adm.py", line 35, in __init__
+    self.update_clock()
+    ^^^^^^^^^^^^^^^^^
+AttributeError: 'AdmInterface' object has no attribute 'update_clock'
+
+---
+2025-07-02 22:07:34 -  'AdmInterface' object has no attribute 'update_clock'
+Traceback (most recent call last):
+  File "c:\Users\vitor\Documents\projetos\mercadoemergencial_1.1\app_adm.py", line 20, in main
+    app = AdmInterface(root, tela_width, tela_height, version)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vitor\Documents\projetos\mercadoemergencial_1.1\interface_adm.py", line 35, in __init__
+    self.update_clock()
+    ^^^^^^^^^^^^^^^^^
+AttributeError: 'AdmInterface' object has no attribute 'update_clock'
+
+---
+2025-07-02 22:09:52 -  'AdmInterface' object has no attribute 'abrir_idv_interface'
+Traceback (most recent call last):
+  File "c:\Users\vitor\Documents\projetos\mercadoemergencial_1.1\app_adm.py", line 20, in main
+    app = AdmInterface(root, tela_width, tela_height, version)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vitor\Documents\projetos\mercadoemergencial_1.1\interface_adm.py", line 65, in __init__
+    self.abrir_idv_interface()
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AdmInterface' object has no attribute 'abrir_idv_interface'
+
+---
+2025-07-02 23:20:12 -  unsupported operand type(s) for *: 'method' and 'float'
+Traceback (most recent call last):
+  File "c:\Users\vitor\Documents\projetos\mercadoemergencial_1.1\app_adm.py", line 15, in main
+    tela_width = root.winfo_screenwidth() - (root.winfo_screenwidth * 0.01)
+                                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~
+TypeError: unsupported operand type(s) for *: 'method' and 'float'
+
+---
+2025-07-02 23:25:17 -  cannot access local variable 'tela_width' where it is not associated with a value
+Traceback (most recent call last):
+  File "c:\Users\vitor\Documents\projetos\mercadoemergencial_1.1\app_adm.py", line 15, in main
+    print(tela_width)
+          ^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'tela_width' where it is not associated with a value
+
+---
+2025-07-03 00:04:49 -  'tela_width' is an invalid keyword argument for print()
+Traceback (most recent call last):
+  File "c:\Users\vitor\Documents\projetos\mercadoemergencial_1.1\app_adm.py", line 15, in main
+    print(tela_width = root.winfo_screenwidth() * 0.99)
+TypeError: 'tela_width' is an invalid keyword argument for print()
+
+---
+2025-07-03 00:14:44 -  name 'root' is not defined
+Traceback (most recent call last):
+  File "c:\Users\vitor\Documents\projetos\mercadoemergencial_1.1\app_adm.py", line 17, in main
+    get_tela_width_a_height()
+  File "c:\Users\vitor\Documents\projetos\mercadoemergencial_1.1\app_adm.py", line 40, in get_tela_width_a_height
+    print(root)
+          ^^^^
+NameError: name 'root' is not defined
+
+---
+2025-07-03 01:25:50 -  'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "c:\Users\vitor\Documents\projetos\mercadoemergencial_1.1\app_adm.py", line 17, in main
+    root.geometry(f'{dimensoes[0]}x{dimensoes[1]}+0+0')
+                     ~~~~~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+
+---
+2025-07-03 01:40:53 -  '_tkinter.tkapp' object has no attribute 'winfo_screen_width'
+Traceback (most recent call last):
+  File "c:\Users\vitor\Documents\projetos\mercadoemergencial_1.1\app_adm.py", line 15, in main
+    dimensoes = get_tela_dimensoes(root)
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vitor\Documents\projetos\mercadoemergencial_1.1\app_adm.py", line 35, in get_tela_dimensoes
+    screen_width = root.winfo_screen_width()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vitor\AppData\Local\Programs\Python\Python312\Lib\tkinter\__init__.py", line 2433, in __getattr__
+    return getattr(self.tk, attr)
+           ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: '_tkinter.tkapp' object has no attribute 'winfo_screen_width'
+
+---
+2025-07-06 18:16:33 -  tuple index out of range
+Traceback (most recent call last):
+  File "c:\Users\vitor\Documents\projetos\mercadoemergencial_1.1\app_adm.py", line 16, in main
+    root.geometry(f'{dimensoes[0]}x{dimensoes[1]}+{dimensoes[2]}+0')
+                                                   ~~~~~~~~~^^^
+IndexError: tuple index out of range
+
+---
+2025-07-06 18:20:46 -  tuple index out of range
+Traceback (most recent call last):
+  File "c:\Users\vitor\Documents\projetos\mercadoemergencial_1.1\app_adm.py", line 16, in main
+    root.geometry(f'{dimensoes[0]}x{dimensoes[1]}+{dimensoes[2]}+0')
+                                                   ~~~~~~~~~^^^
+IndexError: tuple index out of range
+
+---
+2025-07-06 20:43:19 -  unsupported operand type(s) for *: 'method' and 'float'
+Traceback (most recent call last):
+  File "c:\Users\vitor\Documents\projetos\mercadoemergencial_1.1\app_adm.py", line 21, in main
+    app = AdmInterface(root, dimensoes[0], dimensoes[1], version)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vitor\Documents\projetos\mercadoemergencial_1.1\interface_adm.py", line 56, in __init__
+    self.abrir_root()
+  File "c:\Users\vitor\Documents\projetos\mercadoemergencial_1.1\interface_adm.py", line 73, in abrir_root
+    self.root_frame_botoes.place(x=0, y=self.root_title.winfo_height ,anchor='n')
+  File "C:\Users\vitor\AppData\Local\Programs\Python\Python312\Lib\site-packages\customtkinter\windows\widgets\core_widget_classes\ctk_base_class.py", line 274, in place
+    return super().place(**self._apply_argument_scaling(kwargs))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vitor\AppData\Local\Programs\Python\Python312\Lib\site-packages\customtkinter\windows\widgets\scaling\scaling_base_class.py", line 116, in _apply_argument_scaling
+    scaled_kwargs["y"] = self._apply_widget_scaling(scaled_kwargs["y"])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vitor\AppData\Local\Programs\Python\Python312\Lib\site-packages\customtkinter\windows\widgets\scaling\scaling_base_class.py", line 62, in _apply_widget_scaling
+    return value * self.__widget_scaling
+           ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'method' and 'float'
+
+---
+2025-09-20 20:31:59 -  get_data_comercial() missing 1 required positional argument: 'ref_hora'
+Traceback (most recent call last):
+  File "c:\Users\vitor\Documents\projetos\mercadoemergencial_1.1\app.py", line 27, in main
+    app = TrueBuyInterface(root, tela_width, tela_height, version)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vitor\Documents\projetos\mercadoemergencial_1.1\interface.py", line 38, in __init__
+    self.data_comercial = backend.get_data_comercial()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: get_data_comercial() missing 1 required positional argument: 'ref_hora'
+
+---
+2025-09-21 01:19:05 -  get_data_comercial() missing 2 required positional arguments: 'ref_hora' and 'ref_datetime_str'
+Traceback (most recent call last):
+  File "c:\Users\vitor\Documents\projetos\mercadoemergencial_1.1\app.py", line 27, in main
+    app = TrueBuyInterface(root, tela_width, tela_height, version)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vitor\Documents\projetos\mercadoemergencial_1.1\interface.py", line 38, in __init__
+    self.data_comercial = backend.get_data_comercial()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: get_data_comercial() missing 2 required positional arguments: 'ref_hora' and 'ref_datetime_str'
+
+---
+2025-09-21 02:20:41 -  'str' object has no attribute 'time'
+Traceback (most recent call last):
+  File "c:\Users\vitor\Documents\projetos\mercadoemergencial_1.1\app.py", line 27, in main
+    app = TrueBuyInterface(root, tela_width, tela_height, version)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vitor\Documents\projetos\mercadoemergencial_1.1\interface.py", line 54, in __init__
+    self.sisten_constant_updater()
+  File "c:\Users\vitor\Documents\projetos\mercadoemergencial_1.1\interface.py", line 93, in sisten_constant_updater
+    print(now.time().hour)
+         ^^^^^^^^
+AttributeError: 'str' object has no attribute 'time'
+
+---
+2025-09-21 02:24:20 -  get_data_comercial() missing 2 required positional arguments: 'ref_hora' and 'ref_datetime_str'
+Traceback (most recent call last):
+  File "c:\Users\vitor\Documents\projetos\mercadoemergencial_1.1\app.py", line 27, in main
+    app = TrueBuyInterface(root, tela_width, tela_height, version)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vitor\Documents\projetos\mercadoemergencial_1.1\interface.py", line 54, in __init__
+    self.sisten_constant_updater()
+  File "c:\Users\vitor\Documents\projetos\mercadoemergencial_1.1\interface.py", line 94, in sisten_constant_updater
+    if backend.get_data_comercial() != self.data_comercial:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: get_data_comercial() missing 2 required positional arguments: 'ref_hora' and 'ref_datetime_str'
+
+---
