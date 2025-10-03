@@ -64,7 +64,7 @@ class AdmInterface:
         pady = 10 
 
         #Header
-        self.root_title = CTkLabel(self.root, text=f'  MINIMERCADO EMERGENCIAL ADM {self.version}  ', font=CTkFont('helvetica', 60, 'bold'), compound='right', 
+        self.root_title = CTkLabel(self.root, text=f'  GELA FÁCIL ADM {self.version}  ', font=CTkFont('helvetica', 60, 'bold'), compound='right', 
         fg_color='black', text_color='white', width=self.tela_width, height=150, corner_radius=10)
         self.root_title.place(relx=0.5, rely=0, anchor='n')
 

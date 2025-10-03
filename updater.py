@@ -31,8 +31,7 @@ class InstalerInterface:
         self.root.geometry(f"{largura}x{altura}+{x}+{y}")
         self.root.overrideredirect(True)
 
-        logotipo = CTkImage(light_image=Image.open(r'C:\Users\vitor\Documents\projetos\mercadoemergencial_1.1\images\raytec_logo.png'), size=(180, 180))
-        self.root_label_logo = CTkLabel(self.root, text='', image=logotipo)
+        self.root_label_logo = CTkLabel(self.root, text='')
         self.root_label_logo.place(relx=0.5, rely=0.0, anchor='n')
 
         self.root_label_1 = CTkLabel(self.root, text='Atualizando...', font=CTkFont('Arial', 35, 'bold'))
@@ -77,17 +76,17 @@ class InstalerInterface:
         else:
             self.alerta_popup("Erro", "Erro ao criar o executavel.")
 
-    def criar_executavel(self, icone=r"images\icone.ico" ,script=r"app.py"):
+    def criar_executavel(self, script=r"app.py"):
         self.root_label_2.configure(text='Instalando arquivos...')
         try:
             # Define o comando com Python explícito e executa o PyInstaller com o ícone
             comando = [
                 sys.executable, "-m", "PyInstaller", '--noconsole',
-                "--onefile", f"--icon={icone}", script
+                "--onefile", script
             ]
             subprocess.check_call(comando)
 
-            print(f"Executável criado com sucesso para o script '{script}' com o ícone '{icone}'.")
+            print(f"Executável criado com sucesso para o script '{script}'.")
             self.root_progressbar.set(0.66)
             self.root.update()
             return True

@@ -21,14 +21,14 @@ import io
 
 SISTEMA =  platform.system().lower()
 SISTEMA_RELEASE = platform.release()
-APP_VERSION = '1.2'
+APP_VERSION = '1.0'
 CONTATO = '51 989705423'
 
 def main():   
     #CODIGO DE ABERTURA DO APP      
     try:
         root = CTk()
-        root.title(f'PDV - MERCADO 15A - {APP_VERSION} - RayTec Soluções em Software - Todos Direitos Reservados 2024 ®')
+        root.title(f'PDV - GELA FÁCIL - {APP_VERSION} - RayTec Soluções em Software - Todos Direitos Reservados 2024 ®')
         barradetarefas_height = 70  
         tela_width = root.winfo_screenwidth() - 15
         tela_height = root.winfo_screenheight() - barradetarefas_height

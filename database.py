@@ -332,96 +332,103 @@ def get_sales_items_by_sale_id(id):
 
 
 def get_previsao_faturamento_dia(dia_comercial_atual):
+    try:
+        # datas que aumentam vendas: dia do trabalhador, dia das maes, natal vespera, natal ano novo
 
-    # datas que aumentam vendas: dia do trabalhador, dia das maes, natal vespera, natal ano novo
+        # Coletando os dados do banco de dados
+        conn = create_connection()
+        query = 'SELECT sale_date, total_amount FROM sales'
+        df = pd.read_sql(query, conn)
 
-    # Coletando os dados do banco de dados
-    conn = create_connection()
-    query = 'SELECT sale_date, total_amount FROM sales'
-    df = pd.read_sql(query, conn)
+        # Convertendo as datas
+        df['sale_date'] = pd.to_datetime(df['sale_date'])
 
-    # Convertendo as datas
-    df['sale_date'] = pd.to_datetime(df['sale_date'])
+        # Ajustando para "dia comercial" que começa às 6h da manhã (termina às 5h59 do outro dia)
+        df['data_comercial'] = df['sale_date'].apply(
+            lambda dt: (dt - pd.Timedelta(days=1)).date() if dt.hour < 6 else dt.date()
+        )
 
-    # Ajustando para "dia comercial" que começa às 6h da manhã (termina às 5h59 do outro dia)
-    df['data_comercial'] = df['sale_date'].apply(
-        lambda dt: (dt - pd.Timedelta(days=1)).date() if dt.hour < 6 else dt.date()
-    )
+        # Agrupando pela data comercial e somando o valor total
+        df_diario = df.groupby('data_comercial')['total_amount'].sum().reset_index().copy()
 
-    # Agrupando pela data comercial e somando o valor total
-    df_diario = df.groupby('data_comercial')['total_amount'].sum().reset_index().copy()
+        # Convertendo para datetime
+        df_diario['data_comercial'] = pd.to_datetime(df_diario['data_comercial'])
 
-    # Convertendo para datetime
-    df_diario['data_comercial'] = pd.to_datetime(df_diario['data_comercial'])
+        # Criar uma nova coluna com o número de dias desde o primeiro registro
+        df_diario['dias'] = (df_diario['data_comercial'] - df_diario['data_comercial'].min()).dt.days
 
-    # Criar uma nova coluna com o número de dias desde o primeiro registro
-    df_diario['dias'] = (df_diario['data_comercial'] - df_diario['data_comercial'].min()).dt.days
+        # Verificando se o dia atual é anterior a 6h para evitar que as vendas dele interfiram na previsao
+        df_diario_filtrado = df_diario[df_diario['data_comercial'] < pd.to_datetime(dia_comercial_atual)].copy()
 
-    # Verificando se o dia atual é anterior a 6h para evitar que as vendas dele interfiram na previsao
-    df_diario_filtrado = df_diario[df_diario['data_comercial'] < pd.to_datetime(dia_comercial_atual)].copy()
+        # Adicionando a coluna dos dias da semana (0 à 6)
+        df_diario_filtrado['dia_semana'] = df_diario_filtrado['data_comercial'].dt.weekday
 
-    # Adicionando a coluna dos dias da semana (0 à 6)
-    df_diario_filtrado['dia_semana'] = df_diario_filtrado['data_comercial'].dt.weekday
+        # X será o número de dias, e y será o faturamento
+        X = df_diario_filtrado[['dias', 'dia_semana']]  # Precisamos de um formato de matriz
+        y = df_diario_filtrado['total_amount']
 
-    # X será o número de dias, e y será o faturamento
-    X = df_diario_filtrado[['dias', 'dia_semana']]  # Precisamos de um formato de matriz
-    y = df_diario_filtrado['total_amount']
+        # Criando e treinando o modelo
+        modelo = LinearRegression()
+        modelo.fit(X, y)
 
-    # Criando e treinando o modelo
-    modelo = LinearRegression()
-    modelo.fit(X, y)
+        # Calculando o número de dias e o dia da semana para hoje
+        dias_hoje = (pd.to_datetime(dia_comercial_atual) - df_diario_filtrado['data_comercial'].min()).days
+        dia_semana_hoje = pd.to_datetime(dia_comercial_atual).weekday()
 
-    # Calculando o número de dias e o dia da semana para hoje
-    dias_hoje = (pd.to_datetime(dia_comercial_atual) - df_diario_filtrado['data_comercial'].min()).days
-    dia_semana_hoje = pd.to_datetime(dia_comercial_atual).weekday()
+        # Previsão para o dia atual
+        previsao_hoje = modelo.predict([[dias_hoje, dia_semana_hoje]])
 
-    # Previsão para o dia atual
-    previsao_hoje = modelo.predict([[dias_hoje, dia_semana_hoje]])
+        return previsao_hoje[0]
 
-    return previsao_hoje[0]
+    except:
+        return '0'
 
 def get_previsao_faturamento_mes(mes_para_prever):
-    # Coletando os dados do banco de dados
-    conn = create_connection()
-    query = 'SELECT sale_date, total_amount FROM sales'
-    df = pd.read_sql(query, conn)
+    try:
+        # Coletando os dados do banco de dados
+        conn = create_connection()
+        query = 'SELECT sale_date, total_amount FROM sales'
+        df = pd.read_sql(query, conn)
 
-    # Convertendo as datas
-    df['sale_date'] = pd.to_datetime(df['sale_date'])
+        # Convertendo as datas
+        df['sale_date'] = pd.to_datetime(df['sale_date'])
 
-    # Ajustando para "dia comercial" que começa às 6h da manhã
-    df['data_comercial'] = df['sale_date'].apply(
-        lambda dt: (dt - pd.Timedelta(days=1)).date() if dt.hour < 6 else dt.date()
-    )
+        # Ajustando para "dia comercial" que começa às 6h da manhã
+        df['data_comercial'] = df['sale_date'].apply(
+            lambda dt: (dt - pd.Timedelta(days=1)).date() if dt.hour < 6 else dt.date()
+        )
 
-    # Agrupando pela data comercial e somando o valor total
-    df = df.groupby('data_comercial')['total_amount'].sum().reset_index()
-    df['data_comercial'] = pd.to_datetime(df['data_comercial'])
+        # Agrupando pela data comercial e somando o valor total
+        df = df.groupby('data_comercial')['total_amount'].sum().reset_index()
+        df['data_comercial'] = pd.to_datetime(df['data_comercial'])
 
-    # Agrupando por mês
-    df['mes_comercial'] = df['data_comercial'].dt.to_period('M')
-    df = df.groupby('mes_comercial')['total_amount'].sum().reset_index()
+        # Agrupando por mês
+        df['mes_comercial'] = df['data_comercial'].dt.to_period('M')
+        df = df.groupby('mes_comercial')['total_amount'].sum().reset_index()
 
-    # Removendo o primeiro e o último mês
-    primeiro_mes = df['mes_comercial'].min()
-    ultimo_mes = df['mes_comercial'].max()
-    df = df[(df['mes_comercial'] > primeiro_mes) & (df['mes_comercial'] < ultimo_mes)].copy()
+        # Removendo o primeiro e o último mês
+        primeiro_mes = df['mes_comercial'].min()
+        ultimo_mes = df['mes_comercial'].max()
+        df = df[(df['mes_comercial'] > primeiro_mes) & (df['mes_comercial'] < ultimo_mes)].copy()
 
-    # Transformando os meses para int (ex: 202405)
-    df['mes_comercial'] = df['mes_comercial'].astype(str).str.replace('-', '').astype(int)
+        # Transformando os meses para int (ex: 202405)
+        df['mes_comercial'] = df['mes_comercial'].astype(str).str.replace('-', '').astype(int)
 
-    # Treinando o modelo
-    X = df[['mes_comercial']].values
-    y = df['total_amount'].values
-    modelo = LinearRegression()
-    modelo.fit(X, y)
+        # Treinando o modelo
+        X = df[['mes_comercial']].values
+        y = df['total_amount'].values
+        modelo = LinearRegression()
+        modelo.fit(X, y)
 
-    # Prevendo o mês atual
-    mes_para_prever = int(mes_para_prever)
-    X_novo = [[mes_para_prever]]
-    previsao = modelo.predict(X_novo)[0]
+        # Prevendo o mês atual
+        mes_para_prever = int(mes_para_prever)
+        X_novo = [[mes_para_prever]]
+        previsao = modelo.predict(X_novo)[0]
 
-    return previsao
+        return previsao
+
+    except:
+        return '0'
 
 #endregion
 
@@ -1123,5 +1130,10 @@ def get_fornecedor_by_id(id):
 # endregion
 
 
-if __name__ == '__main__':
-    pass
+if __name__ == "__main__":
+    conn = create_connection()
+    cursor = conn.cursor()
+
+    cursor.execute('DELETE FROM supriments;')
+    conn.commit()
+

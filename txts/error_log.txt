@@ -171,3 +171,30 @@ Traceback (most recent call last):
 TypeError: get_data_comercial() missing 2 required positional arguments: 'ref_hora' and 'ref_datetime_str'
 
 ---
+2025-10-03 00:51:27 -  Found array with 0 sample(s) (shape=(0, 2)) while a minimum of 1 is required by LinearRegression.
+Traceback (most recent call last):
+  File "c:\Users\vitor\Documents\projetos\gelafacil\app.py", line 38, in main
+    app = TrueBuyInterface(root, tela_width, tela_height, APP_VERSION)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vitor\Documents\projetos\gelafacil\interface.py", line 58, in __init__
+    self.previsao_fat_dia = database.get_previsao_faturamento_dia(self.data_comercial)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vitor\Documents\projetos\gelafacil\database.py", line 372, in get_previsao_faturamento_dia
+    modelo.fit(X, y)
+  File "C:\Users\vitor\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vitor\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\linear_model\_base.py", line 601, in fit
+    X, y = validate_data(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\vitor\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\validation.py", line 2961, in validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vitor\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\validation.py", line 1370, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "C:\Users\vitor\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\validation.py", line 1130, in check_array
+    raise ValueError(
+ValueError: Found array with 0 sample(s) (shape=(0, 2)) while a minimum of 1 is required by LinearRegression.
+
+---

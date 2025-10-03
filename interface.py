@@ -10,7 +10,9 @@ import time as tm
 from datetime import datetime as dt, timedelta, time
 import json
 from pygame import mixer
+import ast
 
+NOME_TITULO = 'GELA FÁCIL'
 HORA_VIRADA_DATA_COMERCIAL = 6 #6 horas da manhã
 AFTER_INTERVALO = 100 #intervalo em ms (parametro da funcao after ao longo do codigo)
 
@@ -322,8 +324,8 @@ class TrueBuyInterface:
 
     def abrir_idv_interface(self):
         #Header
-        self.tp_idv_label_title = CTkLabel(self.root, text=f'  MINIMERCADO 15A {self.version}  ', font=CTkFont('helvetica', 80, 'bold'), compound='right', 
-        fg_color='black', text_color='white', width=self.tela_width, height=150, corner_radius=10)
+        self.tp_idv_label_title = CTkLabel(self.root, text=f'  {NOME_TITULO} {self.version}  ', font=CTkFont('helvetica', 80, 'bold'), compound='right', 
+        fg_color='blue', text_color='white', width=self.tela_width, height=150, corner_radius=10)
         self.tp_idv_label_title.place(relx=0.5, rely=0, anchor='n')
 
         #Treeview para exibir a lista de produtos
@@ -353,7 +355,7 @@ class TrueBuyInterface:
         self.tp_idv_label_ilust_codbar = CTkLabel(self.root, image=self.tp_idv_ilus_codbar, text='')
         self.tp_idv_label_ilust_codbar.place(relx=0.05, rely=0.87)
 
-        self.tp_idv_entry_codbar = CTkEntry(self.root, width=700, height=35, border_color='orange')
+        self.tp_idv_entry_codbar = CTkEntry(self.root, width=700, height=35, border_color='blue')
         self.tp_idv_entry_codbar.place(relx=0.08, rely=0.87)
         self.tp_idv_entry_codbar.focus_force()
 
@@ -389,10 +391,10 @@ class TrueBuyInterface:
         self.tp_idv_limite_disponivel = CTkLabel(self.root, text='Limite disponível:', font=self.tp_cdm_fonte_padrao_bold, fg_color='black', text_color='white')
         self.tp_idv_limite_disponivel_1 = CTkLabel(self.root, text='-', font=CTkFont('arial', 35, 'bold'), fg_color='black', text_color='green')
 
-        self.tp_idv_frame_footer = CTkFrame(self.root, width=self.tp_idv_footer_width, height=self.tp_idv_footer_height, fg_color='orange')
+        self.tp_idv_frame_footer = CTkFrame(self.root, width=self.tp_idv_footer_width, height=self.tp_idv_footer_height, fg_color='blue')
         self.tp_idv_frame_footer.place(relx=0, y=self.tp_idv_footer_y_cordinate)
         self.tp_idv_frame_footer_label_0 = CTkLabel(self.tp_idv_frame_footer, text='F1 - Cadastrar Mercadoria     F2 - Remover item da compra     F3 - Finalizar Compra     F4 - Gerenciar Mercadoria     F5 - Gerenciamento de Clientes     F6 - Fiar Compra       F11 - Gerenciamento de Vendas      F12 - Gerenciar Caixa', 
-        font=self.tp_idv_footer_fonte)
+        font=self.tp_idv_footer_fonte, text_color='white')
         self.tp_idv_frame_footer_label_0.place(relx=0.01)
 
         #Teclas Config
@@ -571,6 +573,7 @@ class TrueBuyInterface:
             index = self.get_treeview_itens_number()+1
 
             #inserir na treeview
+            print(feedback)
             row = helper.formatar_row_para_treeview_da_root(feedback, index, quantidade)
             self.tp_idv_treeview.insert('','end', values=row)
             
@@ -1030,7 +1033,7 @@ class TrueBuyInterface:
             self.tp_idv_2 = None
 
     def reset_root(self, event=None):
-        self.tp_idv_label_title.configure(text=f'  MINIMERCADO 15A {self.version}  ')
+        self.tp_idv_label_title.configure(text=f'  {NOME_TITULO} {self.version}  ')
         self.tp_idv_frame_status_label.configure(text='Aguardando Código de barras...')
         self.tp_idv_frame_status_subtotal_label_1.configure(text='0,00')
         self.tp_idv_frame_status_preco_unitario_label_1.configure(text='0,00')
@@ -1226,7 +1229,7 @@ class TrueBuyInterface:
                 self.tp_cdm_entry_codbar_sinalizer.place(relx=0.13, rely=0.38)
                 self.tp_cdm_entry_codbar.focus_set()
                 return
-            elif len(codbar_inserido) not in (8, 13):
+            elif len(codbar_inserido) < 1:
                 self.tp_cdm_entry_codbar_sinalizer.configure(text='O código de barras deve conter 13 dígitos.')
                 self.tp_cdm_entry_codbar_sinalizer.place(relx=0.13, rely=0.38)
                 self.tp_cdm_entry_codbar.focus_set()
@@ -3218,7 +3221,7 @@ class TrueBuyInterface:
             self.root.update()
             if not on_credit_data:
                 msg = CTkMessagebox(self.root, message=f'Nenhum dado encontrado para o(a) cliente: {item_values[1]}', icon='warning', title='Atenção')
-                self.tp_idv_label_title.configure(text=f'  MINIMERCADO EMERGENCIAL {self.version}  ')     
+                self.tp_idv_label_title.configure(text=f' {NOME_TITULO} {self.version}  ')     
                 return
             
             self.fechar_tp_clientes()
@@ -3229,9 +3232,10 @@ class TrueBuyInterface:
             #lançãndo na treeview do IDV e somando
             for i, item in enumerate(on_credit_data): #percorre a lista de items das compras feitas pelo cliente
                 self.oncredit_ids.append(item[0])
-                item = tuple(json.loads(item[2]) )
+                item = tuple(ast.literal_eval(item[2]))
                 quantidade = item[-1]
                 produto = item[:-1]
+                print(quantidade, produto)
                 self.inserir_item_na_compra(produto, quantidade)
             
             #capturando o total da compra
